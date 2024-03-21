@@ -181,7 +181,6 @@ if __name__ == '__main__':
     File_Size      = 0
     File_Size_Str  = ''
     if len(argv) == 1 or len(argv) < 3:
-        #print(len(argv))
         Usage()
         sys.exit(1)
     else:
