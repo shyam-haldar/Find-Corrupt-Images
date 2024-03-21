@@ -1,6 +1,8 @@
 # Find-Corrupt-Images
 Searches for corrupt images and moves them to a specified directory.
+
 It can also move images that are good or dimensions > HD (1920x1080) and move them to a directory you specify.
+
 The script also has option to perform a DRY-RUN.
 
 
