@@ -1,4 +1,8 @@
 # Find-Corrupt-Images
+This script makes use of the tool 'identify' which is part of the ImageMagick suite.
+
+ImageMagick is open-source and cross-platform. More details can be found at https://imagemagick.org/
+
 Searches for corrupt images and moves them to a specified directory.
 
 It can also move images that are good or dimensions > HD (1920x1080) and move them to a directory you specify.
