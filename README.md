@@ -5,6 +5,12 @@ This script makes use of the tool 'identify' which is part of the ImageMagick su
 
 ImageMagick is open-source and cross-platform. More details can be found at https://imagemagick.org/
 
+First, update the value of the variable 'IDENTIFY' to the exact path where the tool identify is installed.
+
+```bash
+IDENTIFY = '/usr/local/bin/identify'
+```
+
 ## Readme
 This script searches for corrupt images and moves them to a specified directory.
 
