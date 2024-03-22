@@ -9,6 +9,7 @@ import sys
 from glob import glob
 from itertools import chain
 
+IDENTIFY = '/usr/local/bin/identify'
 
 def get_walker_generator(at_path):
     return (
@@ -45,7 +46,7 @@ def Is_Image_Bad(FileName=None):
     if FileName:
         StdOut, StdErr = None, None
         try:
-            Out = subprocess.Popen(['/usr/local/bin/identify', '-verbose', FileName], 
+            Out = subprocess.Popen([IDENTIFY, '-verbose', FileName], 
                                 stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
             StdOut, StdErr = Out.communicate()
         except:
